@@ -1,0 +1,140 @@
+.fa-star {
+    color: #A6ACAF;
+    margin-top: -1rem;
+    font-size: 1.1rem;
+}
+
+.fa-star.checked {
+    color: red;
+}
+
+.profile-rating {
+    color: #fff;
+}
+
+.profile-rating {
+    text-decoration: underline;
+}
+
+.text-bold {
+    font-weight: 900;
+}
+
+.profile-location-row i {
+    margin-top: 6px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .avatar-img {
+        position: absolute;
+        margin-top: -120px;
+        width: 130px;
+        height: 130px;
+    }
+
+    #nav-search {
+        width: 400px;
+        margin-top: 10px;
+        border-radius: 30px;
+        background-color: #F4F6F7;
+    }
+
+    #nav-search-input {
+        color: #A6ACAF;
+    }
+
+    #nav-search-input::placeholder {
+        opacity: 1;
+        color: #A6ACAF;
+    }
+
+    #profile-nav {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        background-color: #fff;
+    }
+
+    .profile-tabs {
+        display: flex;
+        padding-top: 5px;
+        margin-left: 6rem;
+        flex-direction: row;
+        align-items: stretch;
+        padding-bottom: 0px;
+    }
+
+    ul.profile-tabs li.nav-item {
+        margin-left: 20px;
+        text-align: center;
+        font-size: 1.1em;
+    }
+
+    ul.profile-tabs li.nav-item.active {
+        border-bottom: red 5px solid;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    .profile-tabs li.nav-item a.nav-link {
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 0.2px;
+        color: #515A5A;
+        font-weight: 900;
+    }
+
+    .profile-tabs li.nav-item.active a.nav-link {
+        color: red;
+    }
+
+    .profile-info-section {
+        margin-top: 80px;
+        margin-left: 350px;
+    }
+
+    .artist-name {
+        font-weight: 700;
+        font-size: 2.5rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .badge-gold {
+        margin-top: 20px;
+        margin-left: 15px;
+        font-size: 0.8em;
+        border-color: goldenrod;
+        font-size: 8px;
+        background-color: goldenrod;
+    }
+
+    .star-left {
+        margin-left: -15px;
+        margin-top: -15px;
+    }
+
+    .text-profile-review {
+        margin-left: -3.5rem;
+        margin-top: -20px;
+    }
+
+    .profile-location-row {
+        color: #fff;
+        margin-top: -1rem;
+    }
+
+    .gallery-content {
+        margin-top: -5rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
