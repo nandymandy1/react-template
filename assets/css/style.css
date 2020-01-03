@@ -24,11 +24,119 @@
     margin-top: 6px;
 }
 
+.badge-gold {
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 0.8em;
+    border-color: goldenrod;
+    font-size: 8px;
+    background-color: goldenrod;
+}
+
+#nav-search {
+    width: 400px;
+    margin-top: 10px;
+    border-radius: 30px;
+    background-color: #F4F6F7;
+}
+
+#nav-search-input {
+    color: #A6ACAF;
+}
+
+#nav-search-input::placeholder {
+    opacity: 1;
+    color: #A6ACAF;
+}
+
+#profile-nav {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #fff;
+}
+
+
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+    .avatar-img {
+        position: absolute;
+        margin-top: -70px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .profile-info-section {
+        width: 100%;
+    }
+
+    .artist-name {
+        margin-left: 2rem;
+        font-weight: bolder;
+        font-size: 1.7em;
+    }
+
+    .profile-location-row {
+        padding-left: 2rem;
+        font-weight: bold;
+    }
+
+    .star-rating {
+        margin-left: 0.5rem;
+    }
+
+    .badge-gold {
+        margin-top: -10px;
+    }
+
+    .profile-rating {
+        font-weight: bolder;
+    }
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+    .avatar-img {
+        position: absolute;
+        margin-top: -70px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .profile-info-section {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .artist-name {
+        margin-left: 7rem;
+        font-weight: bolder;
+        font-size: 1.7em;
+    }
+
+    .profile-location-row {
+        padding-left: 7rem;
+        font-weight: bold;
+    }
+
+    .star-rating {
+        margin-left: 5.5rem;
+    }
+
+    .badge-gold {
+        margin-top: -10px;
+    }
+
+    .profile-rating {
+        font-weight: bolder;
+    }
+
+    .avatar-img {
+        position: absolute;
+        margin-top: -70px;
+        width: 90px;
+        height: 90px;
+    }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {}
@@ -105,15 +213,6 @@
         font-weight: 700;
         font-size: 2.5rem;
         font-family: 'Open Sans', sans-serif;
-    }
-
-    .badge-gold {
-        margin-top: 20px;
-        margin-left: 15px;
-        font-size: 0.8em;
-        border-color: goldenrod;
-        font-size: 8px;
-        background-color: goldenrod;
     }
 
     .star-left {
