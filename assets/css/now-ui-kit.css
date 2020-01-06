@@ -5446,7 +5446,8 @@ img {
 }
 
 .footer.footer-default {
-  background-color: #f2f2f2;
+  /* background-color: #f2f2f2; */
+  color: #ccc;
 }
 
 .footer nav {

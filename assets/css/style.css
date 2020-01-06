@@ -58,6 +58,8 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
+
     .avatar-img {
         position: absolute;
         margin-top: -70px;
@@ -95,6 +97,8 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+
+
     .avatar-img {
         position: absolute;
         margin-top: -70px;
@@ -237,3 +241,74 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
+
+.divider {
+    height: 1px;
+    width: 90vw;
+    margin: 10px 5vw;
+    border-bottom: #ccc 1.5px dotted;
+}
+
+.btn-live-gradient {
+    height: 35px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, red, #D83BF1);
+    font-weight: 500;
+}
+
+.btn-live-primary {
+    height: 35px;
+    font-weight: 500;
+    font-size: 1.1em;
+    border-radius: 20px;
+    margin-top: -10px;
+    background-color: red;
+}
+
+
+.section-heading {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+span.section-span-heading {
+    font-size: 1.1em;
+    font-weight: 800;
+}
+
+.live-101-cards {
+    border-radius: 10px;
+}
+
+.live-101-cards>.card-header {
+    font-size: 0.7em;
+    padding: 0.5rem 2rem;
+    font-weight: bolder;
+}
+
+.live-101-card-header-text {
+    margin: 15px -10px;
+    font-weight: 1000;
+}
+
+.live-101-card-header-currency {
+    color: red;
+}
+
+.live-101-cards>.card-body {
+    font-size: 0.7rem;
+    color: #515A5A;
+    padding: 1rem 2rem;
+}
+
+.live-101-cards>.card-footer {
+    font-size: 0.8em;
+    color: #515A5A;
+    padding: 1rem 2rem;
+}
+
+.footer-container {
+    font-size: 0.7em;
+    margin-top: 2rem;
+    color: #515A5A;
+}
